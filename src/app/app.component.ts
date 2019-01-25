@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as faker from 'faker';
+import { Editor } from './models/editor.model'
 
 
 @Component({
@@ -16,17 +17,15 @@ export class AppComponent {
 
   randomOtherName: string = faker.lorem.paragraph();
 
-  makeEditors() {
-    let i;
-    for(i=1;i<21;i++){
-      let editorName = faker.name.findName();
-      this.editors.push(editorName);
-    }
-  }
+  editors: Editor[] = [
+
+  ];
 
 
 
-  console.log(editors);
+
+
+
 
 
 }
