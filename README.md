@@ -1,11 +1,11 @@
 # NyTimes copyCat
 
-## By
+## By Christopher Thomas Cahill
 
 
 
 
-
+#### Faker borrowed from https://github.com/Marak/Faker.js -- with thanks!
 
 
 ##### MIT License

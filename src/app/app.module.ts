@@ -7,8 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { MastheadComponent } from './masthead/masthead.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
-
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -22,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
