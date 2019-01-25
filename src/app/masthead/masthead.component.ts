@@ -9,6 +9,9 @@ import $ from 'jquery';
 })
 export class MastheadComponent implements OnInit {
 
+  stocks: number[] = [];
+
+
   constructor() { }
 
   ngOnInit() {
@@ -29,7 +32,10 @@ export class MastheadComponent implements OnInit {
 
   promise.then(function(response) {
     let body = JSON.parse(response);
-    console.log(body);
+    let lastRefreshed = body["Meta Data"][["3. Last Refreshed"]];
+    console.log(lastRefreshed,body["Time Series (60min)"][lastRefreshed]["4. close"]);
+
+
 
   });
 
