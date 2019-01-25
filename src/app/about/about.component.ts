@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as faker from 'faker';
+import { Editor } from '../models/editor.model';
 
 @Component({
   selector: 'app-about',
@@ -15,11 +16,11 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-   
+
       let i;
       for(i=1;i<21;i++){
         let editorName = faker.name.findName();
-        this.editors.push(editorName);
+        this.editors.push(new Editor({name: editorName}));
       }
       console.log(this.editors)
 
