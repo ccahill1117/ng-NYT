@@ -8,20 +8,21 @@ import * as faker from 'faker';
 })
 export class AboutComponent implements OnInit {
 
-  makeEditors() {
-    let i;
-    for(i=1;i<21;i++){
-      let editorName = faker.name.findName();
-      this.editors.push(editorName);
-    }
-    console.log(this.editors)
-  }
+
 
   editors: string[] = [];
 
   constructor() { }
 
   ngOnInit() {
+   
+      let i;
+      for(i=1;i<21;i++){
+        let editorName = faker.name.findName();
+        this.editors.push(editorName);
+      }
+      console.log(this.editors)
+
   }
 
 }
