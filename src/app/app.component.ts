@@ -14,8 +14,19 @@ export class AppComponent {
 
   randomName: string = "hey";
 
-  randomOtherName: string = faker.name.findName();
+  randomOtherName: string = faker.lorem.paragraph();
 
+  makeEditors() {
+    let i;
+    for(i=1;i<21;i++){
+      let editorName = faker.name.findName();
+      this.editors.push(editorName);
+    }
+  }
+
+
+
+  console.log(editors);
 
 
 }
