@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Faker } from 'faker';
+import * as faker from 'faker';
 
 
 @Component({
@@ -9,11 +9,13 @@ import { Faker } from 'faker';
 })
 
 export class AppComponent {
+
   title = 'ny-times';
 
-  
+  randomName: string = "hey";
 
-  // var randomName: string = Faker.fake.name.findName();
+  randomOtherName: string = faker.name.findName();
+
 
 
 }
