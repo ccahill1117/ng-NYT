@@ -1,0 +1,15 @@
+.topBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  
+}
+
+.categoriesSearch {
+
+}
+
+.loginCrossword {
+
+}

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { MastheadComponent } from './masthead/masthead.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -14,7 +15,8 @@ import { MastheadComponent } from './masthead/masthead.component';
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    MastheadComponent
+    MastheadComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

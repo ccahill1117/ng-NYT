@@ -1,3 +1,18 @@
 h2 {
   font-family: sans-serif;
 }
+
+.mainDiv {
+  display: inline;
+
+}
+
+.appLogin {
+  display: inline;
+
+}
+
+.appMasthead {
+  display: inline;
+
+}
