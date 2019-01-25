@@ -11,7 +11,7 @@ import { Editor } from './models/editor.model'
 
 export class AppComponent {
 
-  title = 'ny-times';
+  title = 'ny-times-fun';
 
   randomName: string = "hey";
 
