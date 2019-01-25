@@ -6,5 +6,5 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class ConfigService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClientModule) { }
 }
