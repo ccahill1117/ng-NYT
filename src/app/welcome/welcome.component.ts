@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Editor } from '../models/editor.model';
+import { Article } from '../models/article.model';
 import * as faker from 'faker';
 import { EditorService } from '../editor.service';
 
@@ -17,7 +18,7 @@ export class WelcomeComponent implements OnInit {
 
   ngOnInit() {
 
-    
+
   }
 
 }
