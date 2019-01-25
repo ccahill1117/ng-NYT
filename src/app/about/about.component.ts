@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
 
 
 
-  editors: string[] = [];
+  editors: Editor[] = [];
 
   constructor() { }
 

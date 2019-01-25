@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
+import { MastheadComponent } from './masthead/masthead.component';
 
 
 
@@ -12,7 +13,8 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     AppComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    MastheadComponent
   ],
   imports: [
     BrowserModule,

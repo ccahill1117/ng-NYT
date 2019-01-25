@@ -16,6 +16,8 @@ export class WelcomeComponent implements OnInit {
   constructor(private editorService: EditorService) { }
 
   ngOnInit() {
+
+    
   }
 
 }
