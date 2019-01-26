@@ -7,6 +7,21 @@
 
 }
 
+.categoriesBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+
+}
+
+.categoriesBar a {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
 #logo {
   width: 400px;
 }
