@@ -8,6 +8,7 @@ import { MastheadComponent } from './masthead/masthead.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SigninComponent } from './signin/signin.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     MastheadComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,

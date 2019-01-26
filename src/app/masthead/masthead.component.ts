@@ -30,16 +30,11 @@ export class MastheadComponent implements OnInit {
       request.send();
     });
 
-  promise.then(function(response) {
-    let body = JSON.parse(response);
-    let lastRefreshed = body["Meta Data"][["3. Last Refreshed"]];
-    console.log(lastRefreshed,body["Time Series (60min)"][lastRefreshed]["4. close"]);
+    promise.then(function(response) {
+      let body = JSON.parse(response);
+      let lastRefreshed = body["Meta Data"][["3. Last Refreshed"]];
+      console.log(lastRefreshed,body["Time Series (60min)"][lastRefreshed]["4. close"]);
 
-
-
-  });
-
-
-}
-
+    });
+  }
 }
