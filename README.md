@@ -2,8 +2,16 @@
 
 ## By Christopher Thomas Cahill
 
+### Features Included 1/25/2019
+- Basic layout and "Main" and "About" views
+- API call to include stock information
+- Rudimentary formatting
 
-
+### Features to be added
+- Improved formatting (i.e. headline artcile vs "smaller" news)
+- Login
+- Adding new articles
+- Crossword?
 
 #### Faker borrowed from https://github.com/Marak/Faker.js -- with thanks!
 
