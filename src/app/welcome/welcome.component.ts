@@ -15,6 +15,9 @@ export class WelcomeComponent implements OnInit {
 
   articles: Article[] = [];
 
+  mainArticle: Article = this.articles[0];
+
+
   constructor(private editorService: EditorService) { }
 
   ngOnInit() {
@@ -27,7 +30,7 @@ export class WelcomeComponent implements OnInit {
       let articleDate = faker.date.recent();
       this.articles.push(new Article({title: articleTitle, previewText: articlePreviewText, text: articleText, author: articleAuthor, date: articleDate}));
     }
-    console.log(this.articles);
+    console.log(this.articles[0]);
   }
 
 }
